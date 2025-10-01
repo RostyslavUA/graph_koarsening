@@ -19,7 +19,7 @@ python3 ./Experiments/node_classification_graph_summarization.py
 Experiments are configured using the YAML configuration files located under `./Experiments/config`
 To run the experiment with GK on e.g., node classification on the Cornell dataset
 - Set `graph_summarizers: [NodeClassificationGKSummarizer]` under `CornellNodeClassificationGraphSummarization` entry in `./Experiments/config/run_config.yaml`
-- Set the parameters of the coarsener ('r', 'recoarsen_every') under  `CornellNodeClassificationGraphSummarization` entry in `./Experiments/config/params.yaml`
+- Set the parameters of the coarsener (`r`, `recoarsen_every`) under  `CornellNodeClassificationGraphSummarization` entry in `./Experiments/config/params.yaml`
 - Execute `python3 ./Experiments/node_classification_graph_summarization.py CornellNodeClassificationGraphSummarization`
 
 ### Key Modifications
